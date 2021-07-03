@@ -1,0 +1,3 @@
+FROM node:latest
+
+ENTRYPOINT ["node", "/home/web/sample_express/bin/www"]
